@@ -25,7 +25,7 @@ export default function Header() {
           {/* Right buttons */}
           <div className="flex items-center lg:order-2">
             <a
-              href="https://amitabha7430.github.io"
+              href="https://amitabha7430.github.io/MYpersonalPortfolio"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 py-2 mr-2"
