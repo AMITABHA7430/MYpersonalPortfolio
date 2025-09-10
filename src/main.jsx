@@ -1,9 +1,7 @@
 import { StrictMode } from 'react'
-
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import Layout from './layout.jsx'
-
 import Home from './components/home/home.jsx'
 import About from './components/About/About.jsx'
 import Contact from './components/contact/contact.jsx'
@@ -22,9 +20,15 @@ const router = createBrowserRouter(
       <Route path="projects" element={<Projects />} />
       <Route path="cirtificate" element={<Cirtificate />} />
     </Route>
-  )
+  ),
+  { basename: '/MYpersonalPortfolio' } // <-- Add this line!
 )
 
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <RouterProvider router={router} />
+  </StrictMode>
+)
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
