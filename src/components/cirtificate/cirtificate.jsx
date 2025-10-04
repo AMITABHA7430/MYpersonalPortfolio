@@ -23,12 +23,12 @@ export default function Cirtificate() {
         </div>
         {/* Certificate 2 */}
         <div className="p-6 bg-gray-800 text-white rounded-2xl shadow hover:shadow-lg transition">
-          <h2 className="text-lg font-semibold mb-2">JavaScript Essentials</h2>
+          <h2 className="text-lg font-semibold mb-2">ReactDEVELOPER</h2>
           <p className="text-sm text-gray-300 mb-2">
-            Issued by: Udemy | Date: Dec 2023
+            Issued by: Scaler | Date: oct 2025
           </p>
           <a
-            href="https://www.udemy.com/certificate/EXAMPLE2"
+            href="https://moonshot.scaler.com/s/sl/sN6kmb5rF7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 underline block mb-2"
